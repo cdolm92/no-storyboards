@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7528D501C77B04900ECF919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7528D4F1C77B04900ECF919 /* AppDelegate.swift */; };
+		F7528D521C77B04900ECF919 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7528D511C77B04900ECF919 /* YellowVC.swift */; };
+		F7528D571C77B04900ECF919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7528D561C77B04900ECF919 /* Assets.xcassets */; };
+		F7528D5A1C77B04900ECF919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7528D581C77B04900ECF919 /* LaunchScreen.storyboard */; };
+		F7528D621C77B0FF00ECF919 /* YellowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7528D611C77B0FF00ECF919 /* YellowVC.xib */; };
+		F7528D681C77B35C00ECF919 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7528D661C77B35C00ECF919 /* BlueVC.swift */; };
+		F7528D691C77B35C00ECF919 /* BlueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7528D671C77B35C00ECF919 /* BlueVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7528D4C1C77B04900ECF919 /* no-storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "no-storyboards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7528D4F1C77B04900ECF919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7528D511C77B04900ECF919 /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		F7528D561C77B04900ECF919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7528D591C77B04900ECF919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7528D5B1C77B04900ECF919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7528D611C77B0FF00ECF919 /* YellowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowVC.xib; sourceTree = "<group>"; };
+		F7528D661C77B35C00ECF919 /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		F7528D671C77B35C00ECF919 /* BlueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7528D491C77B04900ECF919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7528D431C77B04900ECF919 = {
+			isa = PBXGroup;
+			children = (
+				F7528D4E1C77B04900ECF919 /* no-storyboards */,
+				F7528D4D1C77B04900ECF919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7528D4D1C77B04900ECF919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7528D4C1C77B04900ECF919 /* no-storyboards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7528D4E1C77B04900ECF919 /* no-storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7528D651C77B13A00ECF919 /* Controller */,
+				F7528D641C77B12000ECF919 /* View */,
+				F7528D631C77B11400ECF919 /* Model */,
+				F7528D4F1C77B04900ECF919 /* AppDelegate.swift */,
+				F7528D561C77B04900ECF919 /* Assets.xcassets */,
+				F7528D581C77B04900ECF919 /* LaunchScreen.storyboard */,
+				F7528D5B1C77B04900ECF919 /* Info.plist */,
+			);
+			path = "no-storyboards";
+			sourceTree = "<group>";
+		};
+		F7528D631C77B11400ECF919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F7528D641C77B12000ECF919 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7528D611C77B0FF00ECF919 /* YellowVC.xib */,
+				F7528D671C77B35C00ECF919 /* BlueVC.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F7528D651C77B13A00ECF919 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7528D511C77B04900ECF919 /* YellowVC.swift */,
+				F7528D661C77B35C00ECF919 /* BlueVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7528D4B1C77B04900ECF919 /* no-storyboards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7528D5E1C77B04900ECF919 /* Build configuration list for PBXNativeTarget "no-storyboards" */;
+			buildPhases = (
+				F7528D481C77B04900ECF919 /* Sources */,
+				F7528D491C77B04900ECF919 /* Frameworks */,
+				F7528D4A1C77B04900ECF919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "no-storyboards";
+			productName = "no-storyboards";
+			productReference = F7528D4C1C77B04900ECF919 /* no-storyboards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7528D441C77B04900ECF919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Christella;
+				TargetAttributes = {
+					F7528D4B1C77B04900ECF919 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9WQ49EN2U5;
+					};
+				};
+			};
+			buildConfigurationList = F7528D471C77B04900ECF919 /* Build configuration list for PBXProject "no-storyboards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7528D431C77B04900ECF919;
+			productRefGroup = F7528D4D1C77B04900ECF919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7528D4B1C77B04900ECF919 /* no-storyboards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7528D4A1C77B04900ECF919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7528D691C77B35C00ECF919 /* BlueVC.xib in Resources */,
+				F7528D621C77B0FF00ECF919 /* YellowVC.xib in Resources */,
+				F7528D5A1C77B04900ECF919 /* LaunchScreen.storyboard in Resources */,
+				F7528D571C77B04900ECF919 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7528D481C77B04900ECF919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7528D681C77B35C00ECF919 /* BlueVC.swift in Sources */,
+				F7528D521C77B04900ECF919 /* YellowVC.swift in Sources */,
+				F7528D501C77B04900ECF919 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7528D581C77B04900ECF919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7528D591C77B04900ECF919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7528D5C1C77B04900ECF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7528D5D1C77B04900ECF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7528D5F1C77B04900ECF919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "no-storyboards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christella.no-storyboards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7528D601C77B04900ECF919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "no-storyboards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christella.no-storyboards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7528D471C77B04900ECF919 /* Build configuration list for PBXProject "no-storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7528D5C1C77B04900ECF919 /* Debug */,
+				F7528D5D1C77B04900ECF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7528D5E1C77B04900ECF919 /* Build configuration list for PBXNativeTarget "no-storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7528D5F1C77B04900ECF919 /* Debug */,
+				F7528D601C77B04900ECF919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7528D441C77B04900ECF919 /* Project object */;
+}
